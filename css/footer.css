@@ -1,0 +1,13 @@
+.footer {
+  background-color: #0C260F;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer p {
+  font-size: 1.5rem;
+  line-height: 1.45rem;
+  margin: 0 auto 0 40px;
+}

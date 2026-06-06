@@ -1,0 +1,69 @@
+.contato {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: #000;
+}
+
+.contato-texto {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+
+.contato-texto h3 {
+  font-size: 3rem;
+  line-height: 1.14;
+  color: #fff;
+  margin: 80px 160px 0 133px;
+  text-align: left;
+}
+
+.contato-texto p {
+  font-size: 2rem;
+  line-height: 1.14;
+  color: #f0f0f0;
+  margin: 20px 240px 40px 133px;
+  text-align: left;
+}
+
+.contato-texto img {
+  position: absolute;
+  top: 25px;
+  left: 30px;
+  right: 414px;
+  bottom: 30px;
+}
+
+.contato-btn {
+  font-size: 2.25rem;
+  line-height: 1;
+  padding: 30px 30px 30px 50px;
+  margin-left: 133px;
+  margin-right: 300px;
+  background-color: #46D24B;
+  position: relative;
+  margin-bottom: 80px;
+  text-decoration: none;
+  color: #000;
+}
+
+.contato-marcas {
+  display: grid;
+  grid-template-rows: 1fr;
+}
+
+
+.contato-marcas img {
+  grid-column: 1;
+  margin-top: 45px;
+  margin-right: 100px;
+}
+
+.jrmarinho {
+  width: 250px;
+  height: 240px;
+}
+
+
+
+
