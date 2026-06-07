@@ -33,6 +33,20 @@
   text-decoration: none;
 }
 
+@media (max-width: 650px) {
+  .header-logo {
+    display: none;
+  }
+
+  .header-marca {
+    left: 117px;
+  }
+
+  .header-btn {
+    margin-right: 120px;
+  }
+}
+
 @media (max-width: 400px) {
   .header-btn {
     margin: auto;
@@ -41,5 +55,22 @@
   .header-logo{
     display: none;
   }
+
+  .header-marca {
+    display: none;
+  }
 }
   
+@media (max-width: 550px) {
+  .header-logo {
+    display: none;
+  }
+
+  .header-marca {
+    display: none;
+  }
+
+  .header-btn {
+    margin: auto;
+  }
+}

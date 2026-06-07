@@ -59,11 +59,61 @@
   margin-right: 100px;
 }
 
-.jrmarinho {
-  width: 250px;
-  height: 240px;
+@media (max-width: 900px) {
+  .gfteam {
+    display: none;
+  }
+
+  .contato-marcas {
+    justify-content: center;
+    align-items: center;
+  }
+  .contato-texto h3 {
+    font-size: 2.5rem;
+    margin-left: 50px;
+  }
+
+  .contato-texto p {
+    font-size: 1.5rem;
+    margin-left: 50px;
+  }
+
+  .contato-btn {
+    font-size: 2rem;
+    padding: 40px 40px 40px 40px;
+    margin-left: 50px;
+  }
+
+  .contato-btn img {
+    display: none;
+  }
 }
 
+@media (max-width: 800px) {
+  .contato-marcas {
+    display: none;
+  }
 
+  .contato {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 
+  .contato-texto {
+    min-width: 100%;
+    margin: 0px;
+    display: contents;
+  }
 
+  .contato-texto h3 {
+    margin: 60px auto 80px auto;
+  }
+
+  .contato-texto p {
+    display: none;
+  }
+
+  .contato-btn {
+    margin: 0px auto 80px auto;
+  }
+}
