@@ -25,43 +25,14 @@
   left: 135px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 414px) {
   .apresentacao h1 {
-    font-size: 3rem;
-    margin: auto;
-  }
-  
-  .apresentacao p {
-    font-size: 2rem;
-    top: 250px;
-  }
-}
-
-@media (max-width: 750px) {
-  .apresentacao h1 {
-    font-size: 2.5rem;
-    margin: auto;
+    font-size: 1.5rem;
+    top: 30px;
+    left: 20px;
   }
 
   .apresentacao p {
     display: none;
-  }
-}
-
-@media (max-width: 520px) {
-  .apresentacao h1 {
-    font-size: 1.8rem;
-    margin: auto;
-  }
-}
-
-@media (max-width: 400px) {
-  .apresentacao-img {
-    display: none;
-  }
-
-  .apresentacao h1 {
-    color: black;
-    margin: auto;
   }
 }

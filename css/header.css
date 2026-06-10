@@ -33,44 +33,24 @@
   text-decoration: none;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 414px) {
   .header-logo {
-    display: none;
+    margin-top: 0px;
+    margin-bottom: -15px;
+    margin-left: 30px;
+    width: 57px;
+    height: 38px;
   }
 
   .header-marca {
-    left: 117px;
+    left: 110px;
+    width: 45px;
+    height: 45px;
   }
 
   .header-btn {
-    margin-right: 120px;
-  }
-}
-
-@media (max-width: 400px) {
-  .header-btn {
-    margin: auto;
-  }
-  
-  .header-logo{
-    display: none;
-  }
-
-  .header-marca {
-    display: none;
-  }
-}
-  
-@media (max-width: 550px) {
-  .header-logo {
-    display: none;
-  }
-
-  .header-marca {
-    display: none;
-  }
-
-  .header-btn {
-    margin: auto;
+    padding: 9px 6px;
+    margin: auto 20px auto auto;
+    font-size: 0.75rem;
   }
 }

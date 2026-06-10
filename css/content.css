@@ -48,47 +48,32 @@
   line-height: 1.17;
 }
 
-@media (max-width: 900px) {
-  .content h1 {
-    font-size: 2rem;
+@media (max-width: 414px) {
+  .content {
+    margin: 15px 0 0 0;
   }
 
-  .content p {
-    font-size: 1rem;
-  }
-}
-
-@media (max-width: 700px) {
-  .content h1 {
-    font-size: 1rem;
-  }
-  .content p {
-    font-size: 0.8rem;
-    top: 80px;
-  }
-}
-
-@media (max-width: 650px) {
-  .content-adultos,
   .content-criancas {
-    grid-template-columns: 1fr;
-    justify-content: center;
-    align-items: center;
+    margin-bottom: 20px;
   }
 
   .content-img {
-    display: none;
+    width: 188px;
+    height: 181px;
+  }
+
+  .content-img img {
+    width: 188px;
+    height: 181px;
   }
 
   .content h1 {
+    margin: 25px 44px 25px 44px;
     font-size: 2rem;
-    margin-top: 40px;
+    border-bottom: none;
   }
 
   .content p {
-    position: static;
-    grid-column: 1;
-    margin: 20px auto 40px 40px;
-    font-size: 1rem;
+    display: none;
   }
 }
