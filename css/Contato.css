@@ -36,7 +36,7 @@
 .contato-btn {
   font-size: 2.25rem;
   line-height: 1;
-  padding: 30px 30px 30px 50px;
+  padding: 30px 30px 30px 90px;
   margin-left: 133px;
   margin-right: 300px;
   background-color: #46D24B;
@@ -92,9 +92,8 @@
  }
 
  .contato-marcas{
-  margin-top: 10px;
-  margin-bottom: 20px;
-  gap: 10px;
+  margin-top: 80px;
+  margin-bottom: 80px;
  }
 
  .gfteam {
